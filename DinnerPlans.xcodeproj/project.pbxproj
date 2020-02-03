@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70BF98A19D2621000E3FA9F /* DPDinnerOptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A70BF98919D2621000E3FA9F /* DPDinnerOptionsTableViewController.m */; };
+		A7184D5519E4D64100141955 /* agenda_planner.png in Resources */ = {isa = PBXBuildFile; fileRef = A7184D5219E4D64100141955 /* agenda_planner.png */; };
+		A7184D5619E4D64100141955 /* checklist.png in Resources */ = {isa = PBXBuildFile; fileRef = A7184D5319E4D64100141955 /* checklist.png */; };
+		A7184D5719E4D64100141955 /* Dinner_Plate_with_Spoon_and_Fork.png in Resources */ = {isa = PBXBuildFile; fileRef = A7184D5419E4D64100141955 /* Dinner_Plate_with_Spoon_and_Fork.png */; };
+		A742D4F91AAFCE0E0006387E /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A742D4F61AAFCE0E0006387E /* NSDate+Extensions.m */; };
+		A742D4FA1AAFCE0E0006387E /* NSString+StringExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A742D4F81AAFCE0E0006387E /* NSString+StringExtensions.m */; };
+		A769AD1F19D0B15D00DF5F58 /* DPSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = A769AD1E19D0B15D00DF5F58 /* DPSchedule.m */; };
+		A769AD2319D0EAB600DF5F58 /* DPDinnerOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = A769AD2219D0EAB600DF5F58 /* DPDinnerOptions.m */; };
+		A7750AC919D315B900022DCB /* DPEditDinnerOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7750AC819D315B900022DCB /* DPEditDinnerOptionViewController.m */; };
+		A7C6693E19CCB237007665E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C6693D19CCB237007665E8 /* Foundation.framework */; };
+		A7C6694019CCB237007665E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C6693F19CCB237007665E8 /* CoreGraphics.framework */; };
+		A7C6694219CCB237007665E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C6694119CCB237007665E8 /* UIKit.framework */; };
+		A7C6694819CCB237007665E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7C6694619CCB237007665E8 /* InfoPlist.strings */; };
+		A7C6694A19CCB237007665E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C6694919CCB237007665E8 /* main.m */; };
+		A7C6694E19CCB237007665E8 /* DPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C6694D19CCB237007665E8 /* DPAppDelegate.m */; };
+		A7C6695119CCB237007665E8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C6694F19CCB237007665E8 /* Main_iPhone.storyboard */; };
+		A7C6695419CCB237007665E8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C6695219CCB237007665E8 /* Main_iPad.storyboard */; };
+		A7C6695719CCB237007665E8 /* DPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C6695619CCB237007665E8 /* DPViewController.m */; };
+		A7C6695919CCB237007665E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C6695819CCB237007665E8 /* Images.xcassets */; };
+		A7C6696019CCB237007665E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C6695F19CCB237007665E8 /* XCTest.framework */; };
+		A7C6696119CCB238007665E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C6693D19CCB237007665E8 /* Foundation.framework */; };
+		A7C6696219CCB238007665E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7C6694119CCB237007665E8 /* UIKit.framework */; };
+		A7C6696A19CCB238007665E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7C6696819CCB238007665E8 /* InfoPlist.strings */; };
+		A7C6696C19CCB238007665E8 /* DinnerPlansTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C6696B19CCB238007665E8 /* DinnerPlansTests.m */; };
+		A7C6697819CCBB77007665E8 /* DPDinnerOption.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C6697719CCBB77007665E8 /* DPDinnerOption.m */; };
+		A7D23FF519D9C88D005E4B9A /* DPScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D23FF419D9C88D005E4B9A /* DPScheduler.m */; };
+		A7DA17F919D74D2E007522A3 /* DPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DA17F819D74D2E007522A3 /* DPTabBarController.m */; };
+		A7DCA9CC19E0E0920028FD35 /* DPDaysOfTheWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DCA9CB19E0E0920028FD35 /* DPDaysOfTheWeekViewController.m */; };
+		A7DCA9CF19E0F5720028FD35 /* DPDaysOfWeek.m in Sources */ = {isa = PBXBuildFile; fileRef = A7DCA9CE19E0F5720028FD35 /* DPDaysOfWeek.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7C6696319CCB238007665E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7C6693219CCB237007665E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7C6693919CCB237007665E8;
+			remoteInfo = DinnerPlans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A70BF98819D2621000E3FA9F /* DPDinnerOptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPDinnerOptionsTableViewController.h; path = Controllers/DPDinnerOptionsTableViewController.h; sourceTree = "<group>"; };
+		A70BF98919D2621000E3FA9F /* DPDinnerOptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPDinnerOptionsTableViewController.m; path = Controllers/DPDinnerOptionsTableViewController.m; sourceTree = "<group>"; };
+		A7184D5219E4D64100141955 /* agenda_planner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = agenda_planner.png; sourceTree = "<group>"; };
+		A7184D5319E4D64100141955 /* checklist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checklist.png; sourceTree = "<group>"; };
+		A7184D5419E4D64100141955 /* Dinner_Plate_with_Spoon_and_Fork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dinner_Plate_with_Spoon_and_Fork.png; sourceTree = "<group>"; };
+		A742D4F51AAFCE0E0006387E /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
+		A742D4F61AAFCE0E0006387E /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
+		A742D4F71AAFCE0E0006387E /* NSString+StringExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringExtensions.h"; sourceTree = "<group>"; };
+		A742D4F81AAFCE0E0006387E /* NSString+StringExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringExtensions.m"; sourceTree = "<group>"; };
+		A769AD1D19D0B15D00DF5F58 /* DPSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPSchedule.h; path = Controllers/DPSchedule.h; sourceTree = "<group>"; };
+		A769AD1E19D0B15D00DF5F58 /* DPSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPSchedule.m; path = Controllers/DPSchedule.m; sourceTree = "<group>"; };
+		A769AD2119D0EAB600DF5F58 /* DPDinnerOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPDinnerOptions.h; path = Model/DPDinnerOptions.h; sourceTree = "<group>"; };
+		A769AD2219D0EAB600DF5F58 /* DPDinnerOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPDinnerOptions.m; path = Model/DPDinnerOptions.m; sourceTree = "<group>"; };
+		A7750AC719D315B900022DCB /* DPEditDinnerOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPEditDinnerOptionViewController.h; path = Controllers/DPEditDinnerOptionViewController.h; sourceTree = "<group>"; };
+		A7750AC819D315B900022DCB /* DPEditDinnerOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPEditDinnerOptionViewController.m; path = Controllers/DPEditDinnerOptionViewController.m; sourceTree = "<group>"; };
+		A7C6693A19CCB237007665E8 /* DinnerPlans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinnerPlans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C6693D19CCB237007665E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A7C6693F19CCB237007665E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A7C6694119CCB237007665E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A7C6694519CCB237007665E8 /* DinnerPlans-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DinnerPlans-Info.plist"; sourceTree = "<group>"; };
+		A7C6694719CCB237007665E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7C6694919CCB237007665E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7C6694B19CCB237007665E8 /* DinnerPlans-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DinnerPlans-Prefix.pch"; sourceTree = "<group>"; };
+		A7C6694C19CCB237007665E8 /* DPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPAppDelegate.h; sourceTree = "<group>"; };
+		A7C6694D19CCB237007665E8 /* DPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPAppDelegate.m; sourceTree = "<group>"; };
+		A7C6695019CCB237007665E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A7C6695319CCB237007665E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A7C6695519CCB237007665E8 /* DPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DPViewController.h; sourceTree = "<group>"; };
+		A7C6695619CCB237007665E8 /* DPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DPViewController.m; sourceTree = "<group>"; };
+		A7C6695819CCB237007665E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A7C6695E19CCB237007665E8 /* DinnerPlansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnerPlansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C6695F19CCB237007665E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A7C6696719CCB238007665E8 /* DinnerPlansTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DinnerPlansTests-Info.plist"; sourceTree = "<group>"; };
+		A7C6696919CCB238007665E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A7C6696B19CCB238007665E8 /* DinnerPlansTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DinnerPlansTests.m; sourceTree = "<group>"; };
+		A7C6697619CCBB77007665E8 /* DPDinnerOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPDinnerOption.h; path = Model/DPDinnerOption.h; sourceTree = "<group>"; };
+		A7C6697719CCBB77007665E8 /* DPDinnerOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPDinnerOption.m; path = Model/DPDinnerOption.m; sourceTree = "<group>"; };
+		A7D23FF319D9C88D005E4B9A /* DPScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPScheduler.h; path = App/DPScheduler.h; sourceTree = "<group>"; };
+		A7D23FF419D9C88D005E4B9A /* DPScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPScheduler.m; path = App/DPScheduler.m; sourceTree = "<group>"; };
+		A7DA17F719D74D2E007522A3 /* DPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPTabBarController.h; path = Controllers/DPTabBarController.h; sourceTree = "<group>"; };
+		A7DA17F819D74D2E007522A3 /* DPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPTabBarController.m; path = Controllers/DPTabBarController.m; sourceTree = "<group>"; };
+		A7DCA9CA19E0E0920028FD35 /* DPDaysOfTheWeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPDaysOfTheWeekViewController.h; path = Controllers/DPDaysOfTheWeekViewController.h; sourceTree = "<group>"; };
+		A7DCA9CB19E0E0920028FD35 /* DPDaysOfTheWeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPDaysOfTheWeekViewController.m; path = Controllers/DPDaysOfTheWeekViewController.m; sourceTree = "<group>"; };
+		A7DCA9CD19E0F5720028FD35 /* DPDaysOfWeek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DPDaysOfWeek.h; path = Model/DPDaysOfWeek.h; sourceTree = "<group>"; };
+		A7DCA9CE19E0F5720028FD35 /* DPDaysOfWeek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DPDaysOfWeek.m; path = Model/DPDaysOfWeek.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7C6693719CCB237007665E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C6694019CCB237007665E8 /* CoreGraphics.framework in Frameworks */,
+				A7C6694219CCB237007665E8 /* UIKit.framework in Frameworks */,
+				A7C6693E19CCB237007665E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C6695B19CCB237007665E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C6696019CCB237007665E8 /* XCTest.framework in Frameworks */,
+				A7C6696219CCB238007665E8 /* UIKit.framework in Frameworks */,
+				A7C6696119CCB238007665E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7184D5119E4D64100141955 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7184D5219E4D64100141955 /* agenda_planner.png */,
+				A7184D5319E4D64100141955 /* checklist.png */,
+				A7184D5419E4D64100141955 /* Dinner_Plate_with_Spoon_and_Fork.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A742D4F41AAFCE0E0006387E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A742D4F51AAFCE0E0006387E /* NSDate+Extensions.h */,
+				A742D4F61AAFCE0E0006387E /* NSDate+Extensions.m */,
+				A742D4F71AAFCE0E0006387E /* NSString+StringExtensions.h */,
+				A742D4F81AAFCE0E0006387E /* NSString+StringExtensions.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A769AD2019D0B61300DF5F58 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A769AD1E19D0B15D00DF5F58 /* DPSchedule.m */,
+				A769AD1D19D0B15D00DF5F58 /* DPSchedule.h */,
+				A70BF98819D2621000E3FA9F /* DPDinnerOptionsTableViewController.h */,
+				A70BF98919D2621000E3FA9F /* DPDinnerOptionsTableViewController.m */,
+				A7750AC719D315B900022DCB /* DPEditDinnerOptionViewController.h */,
+				A7750AC819D315B900022DCB /* DPEditDinnerOptionViewController.m */,
+				A7DA17F719D74D2E007522A3 /* DPTabBarController.h */,
+				A7DA17F819D74D2E007522A3 /* DPTabBarController.m */,
+				A7DCA9CA19E0E0920028FD35 /* DPDaysOfTheWeekViewController.h */,
+				A7DCA9CB19E0E0920028FD35 /* DPDaysOfTheWeekViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A7C6693119CCB237007665E8 = {
+			isa = PBXGroup;
+			children = (
+				A7C6694319CCB237007665E8 /* DinnerPlans */,
+				A7C6696519CCB238007665E8 /* DinnerPlansTests */,
+				A7C6693C19CCB237007665E8 /* Frameworks */,
+				A7C6693B19CCB237007665E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7C6693B19CCB237007665E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7C6693A19CCB237007665E8 /* DinnerPlans.app */,
+				A7C6695E19CCB237007665E8 /* DinnerPlansTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7C6693C19CCB237007665E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7C6693D19CCB237007665E8 /* Foundation.framework */,
+				A7C6693F19CCB237007665E8 /* CoreGraphics.framework */,
+				A7C6694119CCB237007665E8 /* UIKit.framework */,
+				A7C6695F19CCB237007665E8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7C6694319CCB237007665E8 /* DinnerPlans */ = {
+			isa = PBXGroup;
+			children = (
+				A742D4F41AAFCE0E0006387E /* Utils */,
+				A7184D5119E4D64100141955 /* Resources */,
+				A7D23FF219D9C82D005E4B9A /* App */,
+				A769AD2019D0B61300DF5F58 /* Controllers */,
+				A7C6697519CCBAED007665E8 /* Model */,
+				A7C6694C19CCB237007665E8 /* DPAppDelegate.h */,
+				A7C6694D19CCB237007665E8 /* DPAppDelegate.m */,
+				A7C6694F19CCB237007665E8 /* Main_iPhone.storyboard */,
+				A7C6695219CCB237007665E8 /* Main_iPad.storyboard */,
+				A7C6695519CCB237007665E8 /* DPViewController.h */,
+				A7C6695619CCB237007665E8 /* DPViewController.m */,
+				A7C6695819CCB237007665E8 /* Images.xcassets */,
+				A7C6694419CCB237007665E8 /* Supporting Files */,
+			);
+			path = DinnerPlans;
+			sourceTree = "<group>";
+		};
+		A7C6694419CCB237007665E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7C6694519CCB237007665E8 /* DinnerPlans-Info.plist */,
+				A7C6694619CCB237007665E8 /* InfoPlist.strings */,
+				A7C6694919CCB237007665E8 /* main.m */,
+				A7C6694B19CCB237007665E8 /* DinnerPlans-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7C6696519CCB238007665E8 /* DinnerPlansTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7C6696B19CCB238007665E8 /* DinnerPlansTests.m */,
+				A7C6696619CCB238007665E8 /* Supporting Files */,
+			);
+			path = DinnerPlansTests;
+			sourceTree = "<group>";
+		};
+		A7C6696619CCB238007665E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7C6696719CCB238007665E8 /* DinnerPlansTests-Info.plist */,
+				A7C6696819CCB238007665E8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7C6697519CCBAED007665E8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7C6697619CCBB77007665E8 /* DPDinnerOption.h */,
+				A7C6697719CCBB77007665E8 /* DPDinnerOption.m */,
+				A769AD2119D0EAB600DF5F58 /* DPDinnerOptions.h */,
+				A769AD2219D0EAB600DF5F58 /* DPDinnerOptions.m */,
+				A7DCA9CD19E0F5720028FD35 /* DPDaysOfWeek.h */,
+				A7DCA9CE19E0F5720028FD35 /* DPDaysOfWeek.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A7D23FF219D9C82D005E4B9A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A7D23FF319D9C88D005E4B9A /* DPScheduler.h */,
+				A7D23FF419D9C88D005E4B9A /* DPScheduler.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7C6693919CCB237007665E8 /* DinnerPlans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C6696F19CCB238007665E8 /* Build configuration list for PBXNativeTarget "DinnerPlans" */;
+			buildPhases = (
+				A7C6693619CCB237007665E8 /* Sources */,
+				A7C6693719CCB237007665E8 /* Frameworks */,
+				A7C6693819CCB237007665E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinnerPlans;
+			productName = DinnerPlans;
+			productReference = A7C6693A19CCB237007665E8 /* DinnerPlans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7C6695D19CCB237007665E8 /* DinnerPlansTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C6697219CCB238007665E8 /* Build configuration list for PBXNativeTarget "DinnerPlansTests" */;
+			buildPhases = (
+				A7C6695A19CCB237007665E8 /* Sources */,
+				A7C6695B19CCB237007665E8 /* Frameworks */,
+				A7C6695C19CCB237007665E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7C6696419CCB238007665E8 /* PBXTargetDependency */,
+			);
+			name = DinnerPlansTests;
+			productName = DinnerPlansTests;
+			productReference = A7C6695E19CCB237007665E8 /* DinnerPlansTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7C6693219CCB237007665E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DP;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ana Muniz";
+				TargetAttributes = {
+					A7C6693919CCB237007665E8 = {
+						DevelopmentTeam = Q4RSAF233U;
+						ProvisioningStyle = Automatic;
+					};
+					A7C6695D19CCB237007665E8 = {
+						DevelopmentTeam = Q4RSAF233U;
+						TestTargetID = A7C6693919CCB237007665E8;
+					};
+				};
+			};
+			buildConfigurationList = A7C6693519CCB237007665E8 /* Build configuration list for PBXProject "DinnerPlans" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7C6693119CCB237007665E8;
+			productRefGroup = A7C6693B19CCB237007665E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7C6693919CCB237007665E8 /* DinnerPlans */,
+				A7C6695D19CCB237007665E8 /* DinnerPlansTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7C6693819CCB237007665E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C6695419CCB237007665E8 /* Main_iPad.storyboard in Resources */,
+				A7184D5719E4D64100141955 /* Dinner_Plate_with_Spoon_and_Fork.png in Resources */,
+				A7C6695919CCB237007665E8 /* Images.xcassets in Resources */,
+				A7184D5619E4D64100141955 /* checklist.png in Resources */,
+				A7C6695119CCB237007665E8 /* Main_iPhone.storyboard in Resources */,
+				A7184D5519E4D64100141955 /* agenda_planner.png in Resources */,
+				A7C6694819CCB237007665E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C6695C19CCB237007665E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C6696A19CCB238007665E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7C6693619CCB237007665E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DA17F919D74D2E007522A3 /* DPTabBarController.m in Sources */,
+				A742D4FA1AAFCE0E0006387E /* NSString+StringExtensions.m in Sources */,
+				A7750AC919D315B900022DCB /* DPEditDinnerOptionViewController.m in Sources */,
+				A769AD1F19D0B15D00DF5F58 /* DPSchedule.m in Sources */,
+				A7DCA9CF19E0F5720028FD35 /* DPDaysOfWeek.m in Sources */,
+				A7C6697819CCBB77007665E8 /* DPDinnerOption.m in Sources */,
+				A742D4F91AAFCE0E0006387E /* NSDate+Extensions.m in Sources */,
+				A7DCA9CC19E0E0920028FD35 /* DPDaysOfTheWeekViewController.m in Sources */,
+				A769AD2319D0EAB600DF5F58 /* DPDinnerOptions.m in Sources */,
+				A7C6694E19CCB237007665E8 /* DPAppDelegate.m in Sources */,
+				A7C6695719CCB237007665E8 /* DPViewController.m in Sources */,
+				A70BF98A19D2621000E3FA9F /* DPDinnerOptionsTableViewController.m in Sources */,
+				A7C6694A19CCB237007665E8 /* main.m in Sources */,
+				A7D23FF519D9C88D005E4B9A /* DPScheduler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7C6695A19CCB237007665E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C6696C19CCB238007665E8 /* DinnerPlansTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7C6696419CCB238007665E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7C6693919CCB237007665E8 /* DinnerPlans */;
+			targetProxy = A7C6696319CCB238007665E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7C6694619CCB237007665E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C6694719CCB237007665E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A7C6694F19CCB237007665E8 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C6695019CCB237007665E8 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A7C6695219CCB237007665E8 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C6695319CCB237007665E8 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A7C6696819CCB238007665E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7C6696919CCB238007665E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7C6696D19CCB238007665E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ana Muniz (F2G77LLDG2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ana Muniz (F2G77LLDG2)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = Q4RSAF233U;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7C6696E19CCB238007665E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ana Muniz (F2G77LLDG2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ana Muniz (F2G77LLDG2)";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = Q4RSAF233U;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7C6697019CCB238007665E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinnerPlans/DinnerPlans-Prefix.pch";
+				INFOPLIST_FILE = "DinnerPlans/DinnerPlans-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anamuniz.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A7C6697119CCB238007665E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinnerPlans/DinnerPlans-Prefix.pch";
+				INFOPLIST_FILE = "DinnerPlans/DinnerPlans-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anamuniz.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A7C6697319CCB238007665E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DinnerPlans.app/DinnerPlans";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinnerPlans/DinnerPlans-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DinnerPlansTests/DinnerPlansTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anamuniz.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A7C6697419CCB238007665E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DinnerPlans.app/DinnerPlans";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DinnerPlans/DinnerPlans-Prefix.pch";
+				INFOPLIST_FILE = "DinnerPlansTests/DinnerPlansTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anamuniz.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7C6693519CCB237007665E8 /* Build configuration list for PBXProject "DinnerPlans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C6696D19CCB238007665E8 /* Debug */,
+				A7C6696E19CCB238007665E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C6696F19CCB238007665E8 /* Build configuration list for PBXNativeTarget "DinnerPlans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C6697019CCB238007665E8 /* Debug */,
+				A7C6697119CCB238007665E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C6697219CCB238007665E8 /* Build configuration list for PBXNativeTarget "DinnerPlansTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7C6697319CCB238007665E8 /* Debug */,
+				A7C6697419CCB238007665E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7C6693219CCB237007665E8 /* Project object */;
+}
